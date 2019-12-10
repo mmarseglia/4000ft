@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.10.2" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2006-05-19T15:27:07Z</time>
+    <bounds maxlat="43.993792" maxlon="-71.512064" minlat="43.890252" minlon="-71.588635"/>
+  </metadata>
+
+  <wpt lat="43.993792" lon="-71.583949">
+    <time>2005-09-26T22:54:16Z</time>
+    <name>EastPT</name>
+    <cmt>East Pond from Tripoli Rd</cmt>
+    <desc>East Pond from Tripoli Rd</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v2 http://www.garmin.com/xmlschemas/GpxExtensions/v2/GpxExtensionsv2.xsd">
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category 2</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.965356" lon="-71.514420">
+    <ele>473.049600</ele>
+    <time>2005-09-26T23:02:41Z</time>
+    <name>LverWV</name>
+    <cmt>Livermore Rd from Waterville</cmt>
+    <desc>Livermore Rd from Waterville</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v2 http://www.garmin.com/xmlschemas/GpxExtensions/v2/GpxExtensionsv2.xsd">
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category 2</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.983442" lon="-71.559073">
+    <ele>690.981600</ele>
+    <time>2005-09-26T22:57:08Z</time>
+    <name>Osceola</name>
+    <cmt>Mount Osceola</cmt>
+    <desc>Mount Osceola</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v2 http://www.garmin.com/xmlschemas/GpxExtensions/v2/GpxExtensionsv2.xsd">
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category 2</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.938110" lon="-71.512064">
+    <ele>427.634400</ele>
+    <time>2005-09-26T22:28:12Z</time>
+    <name>SandwTr</name>
+    <cmt>Sandwich Mt</cmt>
+    <desc>Sandwich Mt</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v2 http://www.garmin.com/xmlschemas/GpxExtensions/v2/GpxExtensionsv2.xsd">
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category 2</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.890252" lon="-71.575241">
+    <ele>268.833600</ele>
+    <time>2005-09-26T22:25:11Z</time>
+    <name>SmartBr</name>
+    <cmt>Smarts Brook</cmt>
+    <desc>Smarts Brook</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v2 http://www.garmin.com/xmlschemas/GpxExtensions/v2/GpxExtensionsv2.xsd">
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category 2</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.966960" lon="-71.526373">
+    <time>2005-09-26T23:01:04Z</time>
+    <name>TecumS</name>
+    <cmt>Tecumseh from Ski area</cmt>
+    <desc>Tecumseh from Ski area</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v2 http://www.garmin.com/xmlschemas/GpxExtensions/v2/GpxExtensionsv2.xsd">
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category 2</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.992462" lon="-71.579729">
+    <time>2005-09-26T22:54:41Z</time>
+    <name>TecumT</name>
+    <cmt>Tecumseh from Tripoli Rd</cmt>
+    <desc>Tecumseh from Tripoli Rd</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v2 http://www.garmin.com/xmlschemas/GpxExtensions/v2/GpxExtensionsv2.xsd">
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category 2</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.903743" lon="-71.588635">
+    <ele>314.553600</ele>
+    <time>2005-09-26T23:17:35Z</time>
+    <name>WlchDick</name>
+    <cmt>Welch Dickey</cmt>
+    <desc>Welch Dickey</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v2 http://www.garmin.com/xmlschemas/GpxExtensions/v2/GpxExtensionsv2.xsd">
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

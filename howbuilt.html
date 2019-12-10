@@ -1,0 +1,467 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="en">
+<head>
+
+<link rel="StyleSheet" href="main.css" type="text/css">
+<link rel="StyleSheet" href="nn4_layout.css" type="text/css">
+<STYLE TYPE="text/css">
+           @import url(real_layout.css);
+</STYLE>
+
+<title>Windows Tools: Gnuemacs, Link Checker, HTML Validator etc.</title>
+
+<meta http-equiv="pics-label" content='(pics-1.1
+"http://www.icra.org/ratingsv02.html" comment "ICRAonline EN v2.0" l
+gen true for "http://home.earthlink.net/~ellozy/" r (nz 1 vz 1 lz 1 oz
+1 cz 1) "http://www.rsac.org/ratingsv01.html" l gen true for
+"http://home.earthlink.net/~ellozy/" r (n 0 s 0 v 0 l 0))'>
+
+<meta name="keywords" content="windows unix html emacs gnuemacs validator link checker">
+
+<meta name="description" content="UNIX-like Tools Used to Build this Web Site">
+
+ 
+</head>
+
+<body>
+<div id="header">
+<h1>Tools Used to Build this Site</h1>
+</div>  <!--  header div  -->
+
+<div id="main">
+
+<!-- table of contents start -->
+<H2><A NAME="toc"></A>Table of Contents</H2>
+<UL>
+<LI><A HREF="#tocref1">GNUEmacs text editor</A>
+<LI><A HREF="#tocref2">U/WIN Tools:  Unix for WINdows</A>
+<LI><A HREF="#tocref3">Linklint for Link Checker</A>
+<LI><A HREF="#tocref4">HTML-Tidy for Checking HTML</A>
+<LI><A HREF="#tocref5">HTML Goodies Primers and Tutorials</A>
+<LI><A HREF="#tocref6">The Web Design Group as Major Reference</A>
+<LI><A HREF="#tocref6a">Remotely Hosted Tools</A>
+<LI><A HREF="#tocref7">Tools that I do Not Use</A>
+<UL>
+<LI><A HREF="#tocref8">GUI FTP Clients</A>
+<LI><A HREF="#tocref9">Preprocessors</A>
+</UL>
+</UL>
+<!-- table of contents end -->
+
+The tools I use to build this site reflect the tastes and prejudices
+acquired during a lifetime of computing.  I have been using UNIX since
+1978, and have come to take the functionality it provides for
+granted.  Nevertheless, when retirement approached, I decided
+<I>not</I> to run Linux on my computer, since most of the time I would
+have no need for that functionality.  Instead I collected a few
+packages that would allow me to access a UNIX-like environment when I
+needed it.
+
+<P>
+I am describing a system that works well for me.  I am <I>not</I>
+saying it will work well for anyone else.  Many will prefer either a
+pure Windows or a pure Linux system.
+
+<P>
+One decision that I made very early in developing this site was to
+write in HTML directly, rather than use an HTML editor.  The following
+<A
+HREF="http://www.htmlhelp.com/faq/html/basics.html#editors">quote</A>
+fits in well with my general computing philosophy:
+
+<BLOCKQUOTE>
+Keep in mind that typically the less HTML the tool requires you to
+know, the worse the output of the HTML. In other words, you can always
+do it better by hand if you take the time to learn a little HTML.
+</BLOCKQUOTE>
+
+Finally, let me put things in perspective.  I have retired to have
+more time to enjoy the outdoors, not to run a computing system <IMG
+SRC="images/smile.gif" ALT="Smile!">.  I do not spend a lot of time
+tweaking the system, but am grateful that the tools are there
+when I need them.
+
+<H2><A NAME="tocref1"></A>GNUEmacs text editor</H2>
+
+<A HREF="http://www.gnu.org/graphics/agnuhead.html"><IMG ALIGN =
+"left" SRC="images/gnu-head-sm.jpg" ALT=" [image of the Head of a GNU]
+" WIDTH="129" HEIGHT="122"></A>The most important tool for building a
+web site when you are directly writing the HTML is a good text editor.
+As a long time user of the UNIX operating system I found the choice
+easy, <A
+HREF="http://www.gnu.org/software/emacs/emacs.html">GNUemacs</A>.  It
+is available on the <A
+HREF="http://www.gnu.org/software/emacs/windows/faq2.html#where-precompiled">GNU
+ftp site</A>, a <A
+HREF="http://www.gnu.org/software/emacs/windows/ntemacs.html">FAQ</A>
+for the Windows version is also available there.
+
+<P>
+The next requirement was a spell checker that would work from within
+emacs, the standard one is <A
+HREF="http://www.gnu.org/software/ispell/ispell.html">GNU Ispell</A>.
+
+
+<P>
+The 'e' in emacs stands for "extensible", and there are an immense
+number of <A
+HREF="http://www.anc.ed.ac.uk/~stephen/emacs/ell.html">elisp
+functions</A> that can add functionality to the editor.  For starters
+I got the <A HREF="http://www.cua.dk/cua.html">CUA-mode</A> function,
+which (among many other things) allows the Cntrl-c, Cntrl-x and Cntrl-v
+functions to work as they do in the Windows environment (copy, cut and
+paste respectively).
+
+<P>
+For specifically editing html files I use an old html-mode.el file
+that seems to have disappeared from the net.  The more modern function
+is <A
+HREF="http://www.santafe.edu/~nelson/tools/">html-helper-mode.el</A>,
+and while writing this page I ran into a tutorial on using it for <A
+HREF="http://www.tech.irt.org/articles/js136/">HTML Editing with
+Emacs</A> that seems useful.
+
+<P> In addition to the main html editing mode I use a small function
+to create a table of contents, which unfortunately has disappeared
+from the net.
+
+<H2><A NAME="tocref2"></A>U/WIN Tools:  Unix for WINdows</H2>
+
+<CENTER> <A
+HREF="http://www.research.att.com/sw/tools/uwin/"><IMG SRC="images/Uwin.gif" HEIGHT=70 WIDTH=494
+ALT="UWIN logo"></A></CENTER>
+
+<BR>
+You may have guessed that <A
+HREF="http://www.research.att.com/sw/tools/uwin/">UWIN</A> in meant to
+be pronounced as "You Win!!".  It provides several UNIX shells and a
+vast number of the standard UNIX utilities, including perl.  It is one
+of several products that provide such an environment, another one that
+is highly recommended (I did not try it out) is <A
+HREF="http://cygwin.com/">cygwin 32</A>.
+
+<P>The distribution includes the basic man pages which do not
+adequately cover many of the details.  For <I>awk</I> and <I>sed</I> I
+have downlaoded the GNU book length manuals from <A
+HREF="http://www.gnu.org/manual/gawk-3.1.0/gawk.html">gawk manual</A>
+and <A HREF="http://www.gnu.org/manual/sed-3.02/sed.html">sed manual</A>
+respectively.
+
+
+<P>
+Those who have spent many years using a UNIX environment will
+certainly appreciate what it does to help the development of web
+pages.  Let me give a couple of examples.
+
+<UL>
+
+<LI>At the bottom of every file there is a navigation bar.  As the
+site grows that bar changes, and has to be changed in many (currently
+nearly 50) files.  All it takes to change all 50 files is a couple of
+lines of shell scripting surrounding a line or two of sed!
+ 
+<BR><BR><LI> I often begin putting tabular material in an Excel spreadsheet,
+then want to convert it to an HTML table.  It is possible to save a
+spreadsheet in HTML format, but it will contain a lot of formatting
+material that I do not want.  Instead I save it as a tab-separated
+text file, and run an awk script to make the table.  The following is
+a very basic script to do so:
+<BR>
+<PRE><CODE>
+BEGIN {
+    FS = "\t"
+    printf "&lt;TABLE&gt;
+}
+{
+    printf "&lt;TR&gt;
+    for (i = 1; i &lt;= NF; i++) {
+        printf "&lt;TD&gt;%s&lt;/TD&gt;", $i
+    }
+    printf "&lt;/TR&gt;\n"
+}
+END {
+    printf "&lt;/TABLE&gt;
+}
+</CODE></PRE>
+
+It can easily be refined to use TH rather than TD for the first row
+and column and so on, but even in this simple form it will do the job!
+</UL>
+
+<H2><A NAME="tocref3"></A>Linklint for Checking Links</H2>
+
+<A HREF="http://www.linklint.org"><img src="images/linklint.gif"
+alt="Checked by Linklint" border=0 WIDTH="74" HEIGHT="29"></A>
+
+<BR><BR>
+<A HREF="http://www.linklint.org">Linklint</A> is a link checker
+written in perl that can check the links in part or all of a site,
+either local or remote.
+
+<P>
+Regularly checking links is essential, as web sites disappear or get
+reorganized, and pointing to a dead link is a quick way of alienating
+visitors to your site.  There are many sites from which you can check
+your links (including the WDG site discussed below), but I prefer to
+have a checker on my own computer.
+
+<P>Recently I found another, apparently similar, checker.  It is
+called <A
+HREF="http://www.remote.org/jochen/software/flinch/">Flinch</A>, and
+is also a free perl program.  It seems more modern, using modules, but
+since Linklint does everything I need I did not explore it any
+further.
+
+<H2><A NAME="tocref4"></A>HTML-Tidy for Checking HTML</H2>
+
+<A HREF="http://tidy.sourceforge.net/">HTML-Tidy</A> is a C program
+that will check and, if you allow it to, correct your HTML code.
+Checking the validity of the HTML that you write against the language
+definition is very important.  Most browsers will attempt to deal with
+invalid constructs, so just checking your page with a browser is no
+guarantee that it is correct.  However, different browsers will allow
+different invalid constructs, so the fact that your page displays
+as you intended with browser X does not mean that it will display
+similarly with browser Y, or even with the next release of browser X.
+
+<P>
+I use Tidy from the UWIN command line, usually as part of a shell
+script which will filter out warnings that I choose to ignore.  I use
+it on all files after major revisions, and often (alas, not always)
+use it before moving a changed file onto the server.
+
+<P> It is also packaged in a few other ways, none of which I have
+seriously investigated since the command line approach works well for
+me.  As noted above, there is an <A
+HREF="http://discus.anu.edu.au/~kahlil/emacs/tidy.el">emacs
+interface</A> to HTML Tidy.  There are also at least two GUI-based
+programs that use it, <A
+HREF="http://perso.wanadoo.fr/ablavier/TidyGUI/">TidyGUI</A>, a free
+Windows GUI version of HTML-Tidy, and <A
+HREF="http://www.chami.com/html-kit/">HTML-Kit</A>, a full-featured
+text editor designed to help HTML, XML and script authors to edit,
+format, lookup help, validate, preview and publish web pages.
+
+<H2><A NAME="tocref5"></A>HTML Goodies Primers and Tutorials</H2>
+
+<A HREF="http://htmlgoodies.earthweb.com/"><IMG
+SRC="images/masthead_goodies.gif" WIDTH="100" HEIGHT="78" BORDER="0"
+ALIGN="left" ALT="HTML Goodies"></A>
+
+There is an enormous amount of information about HTML on the web, so
+much that I found no need to use a book either for learning or for
+reference.  A good short list of resources is the <A
+HREF="http://www.blooberry.com/indexdot/html/topics/starting.htm">Getting
+Started with HTML</A> page on the <A
+HREF="http://www.blooberry.com/indexdot/html/index.html">Index DOT
+Html</A> site.
+
+<P>
+Of the many sites that provide tutorials I have come to rely on <A
+HREF="http://htmlgoodies.earthweb.com/">HTML Goodies</A>.  The
+author's style takes some getting used to (a typical tutorial is
+called <A HREF="http://htmlgoodies.earthweb.com/tutors/table.html">So,
+You Want A Table, Huh?</A>), but apart from style the presentation is
+good, and the basics are very well explained.
+
+<P>
+I do not claim that this site has the best tutorials, just that they
+were good enough that I had no desire to shop around other sites.
+
+<H2><A NAME="tocref6"></A>The Web Design Group as Major Reference</H2>
+
+<A HREF="http://www.htmlhelp.com/"><IMG SRC="images/wdglogo1.gif"
+ALT="The Web Design Group" ALIGN=left WIDTH=250 HEIGHT=74></A>
+
+Of the many sites with substantial HTML references this is the one
+that I have used most often.  It has extensive references on the
+syntax of HTML and CSS, and these can be downloaded to your computer
+and hence used offline.
+
+<P>It also has a variety of tools for checking both HTML and CSS
+syntax, as well as a link checker.  Since I have local HTML and link
+checkers I do not use their remote checking capabilities often, though
+I sometimes like to compare their HTML checks to mine.
+
+<H2><A NAME="tocref6a"></A>Remotely Hosted Tools</H2>
+
+I use a few remotely hosted tools to improve the services that I offer
+users, and to manage the site.
+
+<H3>Search and Site Map Capabilities</H3>
+
+ <A HREF="http://www.freefind.com/"><IMG
+src="images/bic0006b80.jpg" WIDTH="40"
+HEIGHT="70" ALIGN="left" BORDER="0" alt="Free search
+engine"></a>
+
+The search and site map capabilities are remotely hosted by <A
+href="http://www.freefind.com/">FreeFind</A>.  The service is free,
+supported by advertising that I find unobtrusive, and quite simple to
+set up.  From the reports that the site gives me I see that this tool
+is not used very much, but I feel that it is worth the small effort it
+took me to install it.
+
+<P>In addition to being of some use to visitors on my site, I have
+found it a useful tool for understanding how the site works.  The site
+map has shown me clearly how the pieces fit together, when the fit
+seemed bad it helped me improve it.
+
+<H3>Forum</H3>
+
+<A HREF="http://www.voy.com/"><IMG WIDTH=124 HEIGHT=68 BORDER=0
+ALIGN="left" SRC="images/voylogo.gif" ALT="VoyForums Home"></A>
+
+There are a large number of sites that offer free forums, supported by
+advertising.  I chose <A HREF="http://www.voy.com/">VoyForums</A> for
+the simple reason that I was a visitor at a site which uses it.  An
+email to their webmaster brought the response that it was easy to set
+up, and that it had a good record for uptime.  From my experience on
+various forums I knew that I wanted HTML capability (I use it a lot),
+and I wanted the thread with the most recent posting to float to the
+top.  VoyForums provides both of these capabilities, so I was
+satisfied.  Life is too short to comparison shop amongst free
+services!
+
+
+
+<H2><A NAME="tocref7"></A>Tools that I do Not Use</H2>
+
+There are thousands of tools that I do not use!  In this section I
+discuss two tools that I thought of using, and then decided not to.
+
+<H3><A NAME="tocref8"></A>Other FTP Clients</H3>
+
+As a long time UNIX user I have little enthusiasm for GUIs when they
+are not really needed, and have had no problem managing my site with
+the command line version of ftp. Periodically, however, I think that I
+want something more sophisticated.  Mainly I often feel that it would
+be nice to have something that would automatically synchronize the
+server with the files on my PC.
+
+<P> The problem is that, most of the time, I do <I>not</I> want to do
+that.  I usually have several files that I am working on, and only
+upload those that are ready to be shown to the world.  Furthermore, I
+have not seen anything yet that really would work for me.  Still, I
+think of it often enough that it should be mentioned here.
+
+<H3><A NAME="tocref9"></A>Preprocessors</H3>
+
+At the bottom of each page there is the same navigation bar.  As the
+site grows that bar changes; in the last revision I added the Articles
+and Adventures sections.
+
+<P>
+One way to make sure that the navigation bar is identical in all
+files, and to change it easily, would be to put it in a separate file
+that would, somehow, be read into each page.  There is quite a long
+discussion of <A
+HREF="http://www.htmlhelp.com/faq/html/design.html#include-file">that
+issue</A> on the WDG site.
+
+<P>A major problem with that approach is that the HTML can only be
+viewed after preprocessing, so the typical cycle "Edit, Check" becomes
+"Edit, Preprocess, Check", which, for me, is just not worth the
+trouble.  Also, as noted earlier, the UNIX tools allow me to make
+changes in all files with little effort.  I did, however, spend some
+time looking at various products.  The one that looked most attractive
+is <A HREF="http://www.lifl.fr/~beaufils/gtml/">GTML - an HTML
+pre-processor</A>.  Another one is <A
+HREF="http://www.kessels.com/Downloads/htmlincl/">htmlincl</A>.
+
+
+<BR><BR>
+<HR>
+
+
+<!-- BEGIN ADDFREESTATS EASY CODE V2 NO FRAMES -->
+<!-- CODE FOR YOUR PAGE: How Site was Built     -->
+<!-- URL : http://home.earthlink.net/~ellozy/howbuilt.html  -->
+<!-- PAGE NUMBER :18  -->
+<script type="text/javascript" language="javascript" src="http://www1.addfreestats.com/cgi-bin/easycode.cgi?usr=00100552P018">
+</script>
+<!-- END ADDFREESTATS EASY CODE V2 -->
+
+
+</div>  <!--  main div  -->
+
+<!--  navbar for index.html  -->
+
+<div id="navbar">
+
+
+Main Sections:<br><br>
+
+<P CLASS=navbar>
+<a href="index.html">Home</a><br>
+<a href="bagging.html">Peak Bagging</a><br>
+<a href="lists.html">Lists</a><br>
+<a href="nhnotes.html">Routes to Peaks</a><br>
+<a href="general.html">Guide to Resources</a><br>
+<a href="FAQ.html">FAQ</a><br>
+<a href="articles.html">Articles</a><br>
+<a href="adventures.html">Adventures</a><br>
+<A HREF="highpointing.html">Highpointing</A><br><br>
+</P>
+
+
+Navigation tools:<br><br>
+
+<P CLASS=navbar>
+Use <a href="sitemap.html">Site map</a> or<br>
+<a href="http://search.freefind.com/find.html?id=6372974">Search
+this site</a><br><br>
+</P>
+
+
+
+Articles:<br><br>
+
+<P CLASS=navbar> 
+<A HREF="articles.html">Main Articles Page</A><br>
+<A HREF="strenuous.html">Blue Hills Hikes</A><br>
+<A HREF="strenuous2.html">Middlesex Fells Hikes</A><br>
+<A HREF="moderate.html">Moderate Fours</A><br>
+<A HREF="carcamping.html">Winter Car Camping</A><br>
+<A HREF="review.html">Review of 4000 Footers Book</A><br>
+<A HREF="solitude.html">Hiking far from Crowds</A><br>
+<A HREF="roysbushwhacks.html">Bushwhacking NH Fours</A><br>
+<!--
+<A HREF="howbuilt.html">How this Site was Built</A>
+-->
+</P>
+
+
+
+Routes to Peaks:<br><br>
+
+<P CLASS=navbar>
+<A HREF="washington.html">Mt. Washington</A> <br>
+<a href="spresi.html">Southern Presis</a><br>
+<a href="npresi.html">Mt. Adams &amp; Mt. Jefferson</a><br>
+<a href="madison.html">Mt. Madison</a><br>
+<a href="franconia.html">Mt. Lafayette &amp; Mt. Lincoln</a><br>
+<a href="liberty.html">Mt. Liberty &amp; Mt. Flume</a><br>
+<a href="garfield.html">Garfield Ridge &amp; Twins</a><br>
+<a href="bondrts.html">Bonds &amp; Zealand</a><br>
+<a href="otherpemi.html">Other Pemi Peaks</a><br>
+<a href="kinsman.html">Kinsman Ridge</a><br>
+<a href="mt_moosilauke.html">Mt. Moosilauke</a><br>
+<a href="waterville.html">Mt. Tecumseh &amp; Mt. Osceola</a><br>
+<a href="sandwich.html">Sandwich Range</a><br>
+<a href="carters.html">Wildcat-Carter-Moriah Range</a><br>
+<a href="northern.html">Mt. Cabot &amp; Mt. Waumbek</a><br>
+<A HREF="mt_mansfield.html">Mt. Mansfield</A><br>
+<A HREF="camels_hump.html">Camels Hump</A><br>
+<A HREF="vt_4000_footer.html">Other Vermont 4000 Footers</A>
+</P>
+
+</div>  <!--  navbar div  -->
+
+</body>
+</html>
